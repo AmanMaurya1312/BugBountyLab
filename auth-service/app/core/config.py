@@ -12,7 +12,6 @@ class Settings(BaseSettings):
     )
 
     JWT_SECRET_KEY: str = "CHANGE_ME_IN_PRODUCTION"
-
     JWT_ALGORITHM: str = "HS256"
 
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
