@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     API_V1_PREFIX: str = "/api/v1"
 
     DATABASE_URL: str = (
-        "mysql+pymysql://root:password@mysql:3306/nexahr"
+    "mysql+pymysql://root:rootpassword@localhost:3306/nexahr"
     )
 
     JWT_SECRET_KEY: str = "CHANGE_ME_IN_PRODUCTION"
